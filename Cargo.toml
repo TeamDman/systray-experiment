@@ -1,0 +1,12 @@
+[package]
+name = "systray-experiment"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+color-eyre = "0.6.3"
+eyre = "0.6.12"
+tracing = "0.1.41"
+tracing-subscriber = { version = "0.3.19", features = ["fmt", "env-filter"] }
+clap = { version = "4.5.26", features = ["derive"] }
+itertools = "0.14.0"
